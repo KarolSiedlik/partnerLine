@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+body {
+  background-color: rgb(136, 116, 116);
+  background-image: url(assets/bacgrand.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  background-position: center center;
+  height: 100vh
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+nav {
+  background-color: #343A40;
+  padding-left: 15%;
+  margin-top: 10px;
+}
+
+nav ul {
+  max-width: 1280px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  line-height: 70px;
+  color: #bbb;
+  text-decoration: none;
+  padding: 0 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  border-right: 2px solid rgba(194, 79, 79, 0.664);
+}
+
+nav ul li:nth-last-child(1) a {
+  border-style: none;
+}
+
+nav ul li a i {
+  padding-right: 20px;
+  font-size: 24px;
+  vertical-align: -2px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.portfolio {
+  background-color: rgb(65, 55, 55);
+  padding: 10px 0 30px;
+}
+
+.portfolio h1 {
+  font-size: 28px;
+  font-family: 'Saira Condensed',
+    sans-serif;
+  text-transform: uppercase;
+  color: #bbb;
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.portfolio .web img {
+  width: 80%;
+}
+
+.portfolio .about {
+  color: white;
+  font-family: 'Saira',
+    sans-serif;
+  font-weight: normal;
+  padding: 10px 20px 20px 0;
+  text-align: left;
+}
+
+.portfolio .about h2 {
+  font-size: 18px;
+  border-bottom: 2px solid white;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  text-indent: 20px;
+}
+
+.portfolio .about p {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.portfolio .project {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+}
+
+.portfolio .project:nth-of-type(odd) {
+  background-color: #226499cb;
+}
+
+.portfolio .project:nth-of-type(even) {
+  background-color: #dc2950;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
